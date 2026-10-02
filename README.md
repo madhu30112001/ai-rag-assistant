@@ -153,3 +153,9 @@ Upload limits:
 - This project is optimized for document-grounded Q&A rather than general-purpose conversation.
 - The backend can be configured to use either Gemini or OpenAI depending on your environment and model settings.
 - Ensure your MongoDB collection and vector index match the schema expected by the server.
+
+## Screenshots
+
+![Home Page](/screenshots/Dashboard.png)
+
+![Chat Page](/screenshots/Chat.png)
