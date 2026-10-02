@@ -167,7 +167,7 @@ export async function answerWithContext({ message, history = [] }) {
 
   // Keep retrieved text in a system instruction and treat it as untrusted data.
   const completion = await getGoogleClient().models.generateContent({
-    model: process.env.CHAT_MODEL 
+    model: process.env.CHAT_MODEL, 
     contents: [...recentHistory, { role: 'user', parts: [{ text: message }] }],
     config: {
       temperature: 0.2,
