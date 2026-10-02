@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Local configuration files
+eslint.config.js
+
+# Package metadata requested to remain local
+package.json
+package-lock.json
+
+# Formatting configuration
+.prettierrc
+.prettierrc.*
+
+# Environment and logs
+.env
+.env.*
+*.log
+npm-debug.log*
+
+# Build output
+Client/dist/
+Client/dist-ssr/
+
+# Local editor files
+.vscode/
+.idea/
+.DS_Store
